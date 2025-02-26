@@ -1,0 +1,17 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="launch_predictor",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        "streamlit>=1.31.0",
+        "pandas>=2.0.0",
+        "numpy>=1.24.0",
+        "scikit-learn>=1.2.0",
+        "lightgbm>=4.0.0",
+        "shap>=0.43.0",
+        "plotly>=5.18.0",
+        "pyarrow>=14.0.1",
+    ],
+) 

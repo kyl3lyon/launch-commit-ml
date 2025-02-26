@@ -1,0 +1,14 @@
+pandas
+requests
+bs4
+logging
+typing
+datetime
+h2o
+interpret
+lightgbm
+scipy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
